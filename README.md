@@ -1,70 +1,132 @@
-# Getting Started with Create React App
+# 75 Hard Fitness Tracker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A React-based fitness tracker app designed to help you complete the 75 Hard Challenge by tracking daily tasks, visualizing progress, and staying on schedule.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Features
 
-### `npm start`
+- ✅ Track daily challenge tasks
+- 📆 View progress across all 75 days
+- 📋 Weekly workout planning
+- 💪 Reference workout guides
+- 📱 Mobile-responsive design
+- 💾 LocalStorage for persistent data
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 💡 What is the 75 Hard Challenge?
 
-### `npm test`
+The 75 Hard Challenge is a mental and physical discipline program consisting of the following **daily tasks**, completed for **75 consecutive days**:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Two 45-minute workouts (one must be outdoors)
+2. Follow a strict diet (no cheat meals or alcohol)
+3. Drink 1 gallon (4 liters) of water
+4. Take a daily progress photo
+5. Read 10 pages of a non-fiction book
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🛠️ Setup Instructions
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Prerequisites
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [Node.js](https://nodejs.org/) and npm installed
 
-### `npm run eject`
+### Installation
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/75hard-fitness-tracker.git
+cd 75hard-fitness-tracker
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Install dependencies
+npm install
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# Start the development server
+npm start
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Visit [http://localhost:3000](http://localhost:3000) to use the app locally.
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 📁 File Structure
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+75hard-fitness-tracker/
+├── public/
+│   ├── index.html
+│   └── favicon.ico
+├── src/
+│   ├── App.js                # Main app component
+│   ├── App.css               # Global styles
+│   ├── index.js              # Entry point
+│   ├── hooks/
+│   │   └── useLocalStorage.js  # Custom hook for persistence
+├── package.json
+└── README.md
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 🌐 Deployment
 
-### Analyzing the Bundle Size
+### Netlify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```bash
+# Install Netlify CLI
+npm install -g netlify-cli
 
-### Making a Progressive Web App
+# Build and deploy
+npm run build
+netlify deploy
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Vercel
 
-### Advanced Configuration
+```bash
+# Install Vercel CLI
+npm install -g vercel
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+# Deploy
+vercel
+```
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 🧭 Using the App
 
-### `npm run build` fails to minify
+### ✅ Today Tab
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Track your daily task completion
+- Tasks auto-save as you mark them
+
+### 📅 Schedule Tab
+
+- Plan your weekly workouts
+- Use guides for workout ideas
+
+### 📊 Progress Tab
+
+- Monitor your daily/overall progress
+- View completion stats and streaks
+- Use the 75-day calendar tracker
+
+---
+
+## 🛠️ Customization
+
+- 🎨 Modify color scheme in `App.css` under `:root`
+- 💡 Add new workouts or edit routines in the Schedule tab
+- 📚 Update or expand workout reference guides
+
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## 🙌 Contributions
+
+Feel free to fork the repo and submit a pull request with your enhancements!

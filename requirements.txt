@@ -1,0 +1,34 @@
+# Core Backend Packages
+fastapi
+uvicorn
+sqlalchemy
+alembic
+pydantic
+python-jose
+passlib
+python-multipart
+
+# Database Drivers
+psycopg2-binary  # PostgreSQL driver
+pymysql  # MySQL driver
+aiosqlite  # Async SQLite driver
+
+# Additional Utilities
+python-dotenv
+pandas
+matplotlib
+pillow
+apscheduler
+bcrypt
+
+# Testing
+pytest
+pytest-asyncio
+httpx
+
+# API Documentation
+annotated-types
+pydantic-core
+
+# Additional Utils
+numpy  # Required by pandas
